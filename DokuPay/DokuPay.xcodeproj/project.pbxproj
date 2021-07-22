@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4845BD291CD10BE500BEDCBA /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4845BD2A1CD10BE500BEDCBA /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				481DF9BA1CD120CD003383C0 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				481DF9B91CD1208F003383C0 /* PBXTargetDependency */,
+				4845BD2E1CD10BF000BEDCBA /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4810165B1CFC259500279A45 /* DKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C4D02B1CD20C23002D24D2 /* DKNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4818F69C1CF757C20084E9EB /* RSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818F69A1CF757C20084E9EB /* RSAEncryptor.h */; };
+		4818F69D1CF757C20084E9EB /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818F69B1CF757C20084E9EB /* RSAEncryptor.m */; };
+		4818F69F1CF84CC20084E9EB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4818F69E1CF84CC10084E9EB /* Security.framework */; };
+		4818F6AB1CF89F500084E9EB /* DKSecure.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818F6A91CF89F500084E9EB /* DKSecure.h */; };
+		4818F6AC1CF89F500084E9EB /* DKSecure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818F6AA1CF89F500084E9EB /* DKSecure.m */; };
+		4818F6B01CF8A1030084E9EB /* DKPaymentCC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818F6AE1CF8A1030084E9EB /* DKPaymentCC.h */; };
+		4818F6B11CF8A1030084E9EB /* DKPaymentCC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818F6AF1CF8A1030084E9EB /* DKPaymentCC.m */; };
+		4818F6C01CF8BEE80084E9EB /* DKVAAlfaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818F6BE1CF8BEE80084E9EB /* DKVAAlfaViewController.h */; };
+		4818F6C11CF8BEE80084E9EB /* DKVAAlfaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4818F6BF1CF8BEE80084E9EB /* DKVAAlfaViewController.m */; };
+		481DF9C41CD12D23003383C0 /* DokuPay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F9237A1CD05381005F12DD /* DokuPay.storyboard */; };
+		481EEF9C1D1C33F500F54CAD /* Luhn.h in Headers */ = {isa = PBXBuildFile; fileRef = 481EEF9A1D1C33F500F54CAD /* Luhn.h */; };
+		481EEF9D1D1C33F500F54CAD /* Luhn.m in Sources */ = {isa = PBXBuildFile; fileRef = 481EEF9B1D1C33F500F54CAD /* Luhn.m */; };
+		481EEFA01D1D1BF900F54CAD /* ico_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 481EEF9F1D1D19BD00F54CAD /* ico_arrow_down.png */; };
+		4830A1CF1CFF955E0059C641 /* DKPaymentItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48BA33091CD7B752002D39B7 /* DKPaymentItem.h */; };
+		4830A1D01CFF958D0059C641 /* DKNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48C4D02B1CD20C23002D24D2 /* DKNavigationController.h */; };
+		4839528F1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4839528D1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.h */; };
+		483952901D05CB8A005F80C5 /* DKWalletCashBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4839528E1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.m */; };
+		483952931D05CBD4005F80C5 /* DKWalletChannelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 483952911D05CBD4005F80C5 /* DKWalletChannelViewController.h */; };
+		483952941D05CBD4005F80C5 /* DKWalletChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483952921D05CBD4005F80C5 /* DKWalletChannelViewController.m */; };
+		483952971D05CC2C005F80C5 /* DKWalletLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 483952951D05CC2C005F80C5 /* DKWalletLoginViewController.h */; };
+		483952981D05CC2C005F80C5 /* DKWalletLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483952961D05CC2C005F80C5 /* DKWalletLoginViewController.m */; };
+		4839529B1D05CF3E005F80C5 /* DKWalletCreditCardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 483952991D05CF3E005F80C5 /* DKWalletCreditCardViewController.h */; };
+		4839529C1D05CF3E005F80C5 /* DKWalletCreditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4839529A1D05CF3E005F80C5 /* DKWalletCreditCardViewController.m */; };
+		4845BD341CD10F6A00BEDCBA /* DokuPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F923141CD01F47005F12DD /* DokuPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4851FB951D15089500943F4C /* DKWeb3DViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851FB931D15089500943F4C /* DKWeb3DViewController.h */; };
+		4851FB961D15089500943F4C /* DKWeb3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4851FB941D15089500943F4C /* DKWeb3DViewController.m */; };
+		4851FBA81D175D0900943F4C /* DKUserDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851FBA61D175D0900943F4C /* DKUserDetail.h */; };
+		4851FBA91D175D0900943F4C /* DKUserDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4851FBA71D175D0900943F4C /* DKUserDetail.m */; };
+		4851FBAD1D17665700943F4C /* IQDropDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851FBAB1D17665700943F4C /* IQDropDownTextField.h */; };
+		4851FBAE1D17665700943F4C /* IQDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4851FBAC1D17665700943F4C /* IQDropDownTextField.m */; };
+		4851FBB31D17C47B00943F4C /* ico_pc_va.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FBB11D17C41D00943F4C /* ico_pc_va.png */; };
+		4851FBB41D17C47B00943F4C /* ico_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FBA31D1759C400943F4C /* ico_back.png */; };
+		4851FBB51D17C47B00943F4C /* ico_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 4839529E1D0631E7005F80C5 /* ico_success.png */; };
+		4851FBB61D17C47B00943F4C /* paychan_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4839529D1D05D052005F80C5 /* paychan_mastercard.png */; };
+		4851FBB71D17C47B00943F4C /* ico_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4839528C1D05C3BC005F80C5 /* ico_avatar.png */; };
+		4851FBB81D17C47B00943F4C /* ico_token.png in Resources */ = {isa = PBXBuildFile; fileRef = 4854EE131D0532B8006CC738 /* ico_token.png */; };
+		4851FBB91D17C47B00943F4C /* ico_pc_mandiriclickpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4854EE121D052F44006CC738 /* ico_pc_mandiriclickpay.png */; };
+		4851FBBA1D17C47B00943F4C /* ico_info_question.png in Resources */ = {isa = PBXBuildFile; fileRef = 4854EDBB1D008E22006CC738 /* ico_info_question.png */; };
+		4851FBBB1D17C47B00943F4C /* ico_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818F6CB1CF8D1500084E9EB /* ico_arrow_left.png */; };
+		4851FBBC1D17C47B00943F4C /* paychan_alfagroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818F6CA1CF8D02F0084E9EB /* paychan_alfagroup.png */; };
+		4851FBBD1D17C47B00943F4C /* ico_pc_va_marchant.png in Resources */ = {isa = PBXBuildFile; fileRef = 4818F6C91CF8CE360084E9EB /* ico_pc_va_marchant.png */; };
+		4851FBBE1D17C47B00943F4C /* paychan_atm.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F6F0E71CEC5E6F00891D68 /* paychan_atm.png */; };
+		4851FBBF1D17C47B00943F4C /* ico_pc_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7BD201CE0AE8C00B787CD /* ico_pc_cc.png */; };
+		4851FBC01D17C47B00943F4C /* ico_pc_wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7BD211CE0AE8C00B787CD /* ico_pc_wallet.png */; };
+		4851FBC11D17C47B00943F4C /* ico_pc_doku.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7BD1D1CE0AB0F00B787CD /* ico_pc_doku.png */; };
+		4851FBC21D17C47B00943F4C /* paychan_dw.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7BD1E1CE0AB0F00B787CD /* paychan_dw.png */; };
+		4851FBC31D17C47B00943F4C /* payment_secure.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A7BD1F1CE0AB0F00B787CD /* payment_secure.png */; };
+		4851FBC41D17C47B00943F4C /* visa-mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F9237C1CD05657005F12DD /* visa-mastercard.png */; };
+		4851FBC71D19046100943F4C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FBC61D19024300943F4C /* back.png */; };
+		4851FBD01D19FE3F00943F4C /* DKTimeOutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4851FBCE1D19FE3F00943F4C /* DKTimeOutViewController.h */; };
+		4851FBD11D19FE3F00943F4C /* DKTimeOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4851FBCF1D19FE3F00943F4C /* DKTimeOutViewController.m */; };
+		4854EDB01D008246006CC738 /* DKVAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4854EDAE1D008246006CC738 /* DKVAViewController.h */; };
+		4854EDB11D008246006CC738 /* DKVAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4854EDAF1D008246006CC738 /* DKVAViewController.m */; };
+		4854EDB51D00848A006CC738 /* DKVAResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4854EDB31D00848A006CC738 /* DKVAResultViewController.h */; };
+		4854EDB61D00848A006CC738 /* DKVAResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4854EDB41D00848A006CC738 /* DKVAResultViewController.m */; };
+		4854EDB91D00850D006CC738 /* DKVAAlfaResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4854EDB71D00850D006CC738 /* DKVAAlfaResultViewController.h */; };
+		4854EDBA1D00850D006CC738 /* DKVAAlfaResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4854EDB81D00850D006CC738 /* DKVAAlfaResultViewController.m */; };
+		48BA330B1CD7B752002D39B7 /* DKPaymentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BA33091CD7B752002D39B7 /* DKPaymentItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BA330C1CD7B752002D39B7 /* DKPaymentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA330A1CD7B752002D39B7 /* DKPaymentItem.m */; };
+		48BA33DA1CD959C9002D39B7 /* DKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BA33D81CD959C9002D39B7 /* DKUtils.h */; };
+		48BA33DB1CD959C9002D39B7 /* DKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33D91CD959C9002D39B7 /* DKUtils.m */; };
+		48BA33DF1CD96A47002D39B7 /* DKUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BA33DD1CD96A47002D39B7 /* DKUIHelper.h */; };
+		48BA33E01CD96A47002D39B7 /* DKUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33DE1CD96A47002D39B7 /* DKUIHelper.m */; };
+		48C4D0291CD2024B002D24D2 /* DKCCFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F923781CD052E0005F12DD /* DKCCFormViewController.m */; };
+		48C4D02E1CD20C23002D24D2 /* DKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C4D02C1CD20C23002D24D2 /* DKNavigationController.m */; };
+		48D15F1B1D10D4D800FB30DC /* DKLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 48D15F191D10D4D800FB30DC /* DKLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D15F1C1D10D4D800FB30DC /* DKLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D15F1A1D10D4D800FB30DC /* DKLayout.m */; };
+		48D15F1D1D10E66700FB30DC /* DKLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48D15F191D10D4D800FB30DC /* DKLayout.h */; };
+		48DA0EAA1CD2710100661F8B /* DokuPay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F923141CD01F47005F12DD /* DokuPay.h */; };
+		48F6F0D51CEC587F00891D68 /* DKMandiriClickpayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F6F0D31CEC587F00891D68 /* DKMandiriClickpayViewController.h */; };
+		48F6F0D61CEC587F00891D68 /* DKMandiriClickpayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F6F0D41CEC587F00891D68 /* DKMandiriClickpayViewController.m */; };
+		48F923171CD01F47005F12DD /* DokuPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F923161CD01F47005F12DD /* DokuPay.m */; };
+		48F923821CD0A8D2005F12DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F923811CD0A8D2005F12DD /* UIKit.framework */; };
+		48FDF58F1D42932E006B9DE9 /* DKNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FDF58D1D42932E006B9DE9 /* DKNetworking.h */; };
+		48FDF5901D42932E006B9DE9 /* DKNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FDF58E1D42932E006B9DE9 /* DKNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		481DF9B81CD1208F003383C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F923091CD01F47005F12DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 481DF9B11CD11FDE003383C0;
+			remoteInfo = DokuPayResources;
+		};
+		4845BD2D1CD10BF000BEDCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F923091CD01F47005F12DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F923101CD01F47005F12DD;
+			remoteInfo = DokuPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48F9230F1CD01F47005F12DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				48D15F1D1D10E66700FB30DC /* DKLayout.h in CopyFiles */,
+				4830A1D01CFF958D0059C641 /* DKNavigationController.h in CopyFiles */,
+				4830A1CF1CFF955E0059C641 /* DKPaymentItem.h in CopyFiles */,
+				48DA0EAA1CD2710100661F8B /* DokuPay.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4818F69A1CF757C20084E9EB /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		4818F69B1CF757C20084E9EB /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		4818F69E1CF84CC10084E9EB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4818F6A91CF89F500084E9EB /* DKSecure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKSecure.h; path = DKSecure/DKSecure.h; sourceTree = "<group>"; };
+		4818F6AA1CF89F500084E9EB /* DKSecure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKSecure.m; path = DKSecure/DKSecure.m; sourceTree = "<group>"; };
+		4818F6AE1CF8A1030084E9EB /* DKPaymentCC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKPaymentCC.h; path = DKPayment/DKPaymentCC/DKPaymentCC.h; sourceTree = "<group>"; };
+		4818F6AF1CF8A1030084E9EB /* DKPaymentCC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKPaymentCC.m; path = DKPayment/DKPaymentCC/DKPaymentCC.m; sourceTree = "<group>"; };
+		4818F6BE1CF8BEE80084E9EB /* DKVAAlfaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKVAAlfaViewController.h; sourceTree = "<group>"; };
+		4818F6BF1CF8BEE80084E9EB /* DKVAAlfaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKVAAlfaViewController.m; sourceTree = "<group>"; };
+		4818F6C91CF8CE360084E9EB /* ico_pc_va_marchant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_va_marchant.png; path = Images/ico_pc_va_marchant.png; sourceTree = "<group>"; };
+		4818F6CA1CF8D02F0084E9EB /* paychan_alfagroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychan_alfagroup.png; path = Images/paychan_alfagroup.png; sourceTree = "<group>"; };
+		4818F6CB1CF8D1500084E9EB /* ico_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_arrow_left.png; path = Images/ico_arrow_left.png; sourceTree = "<group>"; };
+		481DF9B21CD11FDE003383C0 /* DokuPay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DokuPay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		481DF9B41CD11FDE003383C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481EEF9A1D1C33F500F54CAD /* Luhn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luhn.h; sourceTree = "<group>"; };
+		481EEF9B1D1C33F500F54CAD /* Luhn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luhn.m; sourceTree = "<group>"; };
+		481EEF9F1D1D19BD00F54CAD /* ico_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_arrow_down.png; path = Images/ico_arrow_down.png; sourceTree = "<group>"; };
+		4839528C1D05C3BC005F80C5 /* ico_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_avatar.png; path = Images/ico_avatar.png; sourceTree = "<group>"; };
+		4839528D1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKWalletCashBalanceViewController.h; path = DKWallet/DKWalletCashBalanceViewController.h; sourceTree = "<group>"; };
+		4839528E1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKWalletCashBalanceViewController.m; path = DKWallet/DKWalletCashBalanceViewController.m; sourceTree = "<group>"; };
+		483952911D05CBD4005F80C5 /* DKWalletChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKWalletChannelViewController.h; path = DKWallet/DKWalletChannelViewController.h; sourceTree = "<group>"; };
+		483952921D05CBD4005F80C5 /* DKWalletChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKWalletChannelViewController.m; path = DKWallet/DKWalletChannelViewController.m; sourceTree = "<group>"; };
+		483952951D05CC2C005F80C5 /* DKWalletLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKWalletLoginViewController.h; path = DKWallet/DKWalletLoginViewController.h; sourceTree = "<group>"; };
+		483952961D05CC2C005F80C5 /* DKWalletLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKWalletLoginViewController.m; path = DKWallet/DKWalletLoginViewController.m; sourceTree = "<group>"; };
+		483952991D05CF3E005F80C5 /* DKWalletCreditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKWalletCreditCardViewController.h; path = DKWallet/DKWalletCreditCardViewController.h; sourceTree = "<group>"; };
+		4839529A1D05CF3E005F80C5 /* DKWalletCreditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKWalletCreditCardViewController.m; path = DKWallet/DKWalletCreditCardViewController.m; sourceTree = "<group>"; };
+		4839529D1D05D052005F80C5 /* paychan_mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychan_mastercard.png; path = Images/paychan_mastercard.png; sourceTree = "<group>"; };
+		4839529E1D0631E7005F80C5 /* ico_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_success.png; path = Images/ico_success.png; sourceTree = "<group>"; };
+		4851FB931D15089500943F4C /* DKWeb3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWeb3DViewController.h; sourceTree = "<group>"; };
+		4851FB941D15089500943F4C /* DKWeb3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWeb3DViewController.m; sourceTree = "<group>"; };
+		4851FBA31D1759C400943F4C /* ico_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_back.png; path = Images/ico_back.png; sourceTree = "<group>"; };
+		4851FBA61D175D0900943F4C /* DKUserDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKUserDetail.h; path = DKUserDetail/DKUserDetail.h; sourceTree = "<group>"; };
+		4851FBA71D175D0900943F4C /* DKUserDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKUserDetail.m; path = DKUserDetail/DKUserDetail.m; sourceTree = "<group>"; };
+		4851FBAB1D17665700943F4C /* IQDropDownTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQDropDownTextField.h; sourceTree = "<group>"; };
+		4851FBAC1D17665700943F4C /* IQDropDownTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQDropDownTextField.m; sourceTree = "<group>"; };
+		4851FBB11D17C41D00943F4C /* ico_pc_va.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_va.png; path = Images/ico_pc_va.png; sourceTree = "<group>"; };
+		4851FBC61D19024300943F4C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Images/back.png; sourceTree = "<group>"; };
+		4851FBCE1D19FE3F00943F4C /* DKTimeOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTimeOutViewController.h; sourceTree = "<group>"; };
+		4851FBCF1D19FE3F00943F4C /* DKTimeOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTimeOutViewController.m; sourceTree = "<group>"; };
+		4854EDAE1D008246006CC738 /* DKVAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKVAViewController.h; path = DKVA/DKVAViewController.h; sourceTree = "<group>"; };
+		4854EDAF1D008246006CC738 /* DKVAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKVAViewController.m; path = DKVA/DKVAViewController.m; sourceTree = "<group>"; };
+		4854EDB31D00848A006CC738 /* DKVAResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKVAResultViewController.h; path = DKVA/DKVAResultViewController.h; sourceTree = "<group>"; };
+		4854EDB41D00848A006CC738 /* DKVAResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKVAResultViewController.m; path = DKVA/DKVAResultViewController.m; sourceTree = "<group>"; };
+		4854EDB71D00850D006CC738 /* DKVAAlfaResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKVAAlfaResultViewController.h; sourceTree = "<group>"; };
+		4854EDB81D00850D006CC738 /* DKVAAlfaResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKVAAlfaResultViewController.m; sourceTree = "<group>"; };
+		4854EDBB1D008E22006CC738 /* ico_info_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_info_question.png; path = Images/ico_info_question.png; sourceTree = "<group>"; };
+		4854EE121D052F44006CC738 /* ico_pc_mandiriclickpay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_mandiriclickpay.png; path = Images/ico_pc_mandiriclickpay.png; sourceTree = "<group>"; };
+		4854EE131D0532B8006CC738 /* ico_token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_token.png; path = Images/ico_token.png; sourceTree = "<group>"; };
+		48A7BD1D1CE0AB0F00B787CD /* ico_pc_doku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_doku.png; path = Images/ico_pc_doku.png; sourceTree = "<group>"; };
+		48A7BD1E1CE0AB0F00B787CD /* paychan_dw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychan_dw.png; path = Images/paychan_dw.png; sourceTree = "<group>"; };
+		48A7BD1F1CE0AB0F00B787CD /* payment_secure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = payment_secure.png; path = Images/payment_secure.png; sourceTree = "<group>"; };
+		48A7BD201CE0AE8C00B787CD /* ico_pc_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_cc.png; path = Images/ico_pc_cc.png; sourceTree = "<group>"; };
+		48A7BD211CE0AE8C00B787CD /* ico_pc_wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_pc_wallet.png; path = Images/ico_pc_wallet.png; sourceTree = "<group>"; };
+		48BA33091CD7B752002D39B7 /* DKPaymentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPaymentItem.h; sourceTree = "<group>"; };
+		48BA330A1CD7B752002D39B7 /* DKPaymentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPaymentItem.m; sourceTree = "<group>"; };
+		48BA33D81CD959C9002D39B7 /* DKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKUtils.h; path = DKUtils/DKUtils.h; sourceTree = "<group>"; };
+		48BA33D91CD959C9002D39B7 /* DKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKUtils.m; path = DKUtils/DKUtils.m; sourceTree = "<group>"; };
+		48BA33DD1CD96A47002D39B7 /* DKUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUIHelper.h; sourceTree = "<group>"; };
+		48BA33DE1CD96A47002D39B7 /* DKUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUIHelper.m; sourceTree = "<group>"; };
+		48C4D02B1CD20C23002D24D2 /* DKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKNavigationController.h; path = ../../DKNavigationController.h; sourceTree = "<group>"; };
+		48C4D02C1CD20C23002D24D2 /* DKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKNavigationController.m; path = DKNavigationController/DKNavigationController.m; sourceTree = "<group>"; };
+		48D15F191D10D4D800FB30DC /* DKLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKLayout.h; path = DKLayout/DKLayout.h; sourceTree = "<group>"; };
+		48D15F1A1D10D4D800FB30DC /* DKLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKLayout.m; path = DKLayout/DKLayout.m; sourceTree = "<group>"; };
+		48F6F0D31CEC587F00891D68 /* DKMandiriClickpayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKMandiriClickpayViewController.h; path = DKMandiriClickpay/DKMandiriClickpayViewController.h; sourceTree = "<group>"; };
+		48F6F0D41CEC587F00891D68 /* DKMandiriClickpayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKMandiriClickpayViewController.m; path = DKMandiriClickpay/DKMandiriClickpayViewController.m; sourceTree = "<group>"; };
+		48F6F0E71CEC5E6F00891D68 /* paychan_atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychan_atm.png; path = Images/paychan_atm.png; sourceTree = "<group>"; };
+		48F923111CD01F47005F12DD /* libDokuPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDokuPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F923141CD01F47005F12DD /* DokuPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DokuPay.h; sourceTree = "<group>"; };
+		48F923161CD01F47005F12DD /* DokuPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DokuPay.m; sourceTree = "<group>"; };
+		48F923771CD052E0005F12DD /* DKCCFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKCCFormViewController.h; path = DKCC/DKCCFormViewController.h; sourceTree = "<group>"; };
+		48F923781CD052E0005F12DD /* DKCCFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKCCFormViewController.m; path = DKCC/DKCCFormViewController.m; sourceTree = "<group>"; };
+		48F9237A1CD05381005F12DD /* DokuPay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DokuPay.storyboard; sourceTree = "<group>"; };
+		48F9237C1CD05657005F12DD /* visa-mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "visa-mastercard.png"; path = "Images/visa-mastercard.png"; sourceTree = "<group>"; };
+		48F923811CD0A8D2005F12DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48F923831CD0B978005F12DD /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		48FDF58D1D42932E006B9DE9 /* DKNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKNetworking.h; path = DKNetworking/DKNetworking.h; sourceTree = "<group>"; };
+		48FDF58E1D42932E006B9DE9 /* DKNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKNetworking.m; path = DKNetworking/DKNetworking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		481DF9AF1CD11FDE003383C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9230E1CD01F47005F12DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4818F69F1CF84CC20084E9EB /* Security.framework in Frameworks */,
+				48F923821CD0A8D2005F12DD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4818F6991CF757C20084E9EB /* RSAEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				4818F69A1CF757C20084E9EB /* RSAEncryptor.h */,
+				4818F69B1CF757C20084E9EB /* RSAEncryptor.m */,
+			);
+			name = RSAEncryptor;
+			path = DokuPay/Library/RSAEncryptor;
+			sourceTree = "<group>";
+		};
+		4818F6A81CF89F3C0084E9EB /* DKSecure */ = {
+			isa = PBXGroup;
+			children = (
+				4818F6A91CF89F500084E9EB /* DKSecure.h */,
+				4818F6AA1CF89F500084E9EB /* DKSecure.m */,
+			);
+			name = DKSecure;
+			sourceTree = "<group>";
+		};
+		4818F6AD1CF8A0CD0084E9EB /* DKPayment */ = {
+			isa = PBXGroup;
+			children = (
+				4818F6B31CF8BC020084E9EB /* DKPaymentCC */,
+			);
+			name = DKPayment;
+			sourceTree = "<group>";
+		};
+		4818F6B31CF8BC020084E9EB /* DKPaymentCC */ = {
+			isa = PBXGroup;
+			children = (
+				4818F6AE1CF8A1030084E9EB /* DKPaymentCC.h */,
+				4818F6AF1CF8A1030084E9EB /* DKPaymentCC.m */,
+			);
+			name = DKPaymentCC;
+			sourceTree = "<group>";
+		};
+		4818F6BD1CF8BEE80084E9EB /* DKVAAlfa */ = {
+			isa = PBXGroup;
+			children = (
+				4854EDB71D00850D006CC738 /* DKVAAlfaResultViewController.h */,
+				4854EDB81D00850D006CC738 /* DKVAAlfaResultViewController.m */,
+				4818F6BE1CF8BEE80084E9EB /* DKVAAlfaViewController.h */,
+				4818F6BF1CF8BEE80084E9EB /* DKVAAlfaViewController.m */,
+			);
+			path = DKVAAlfa;
+			sourceTree = "<group>";
+		};
+		481DF9B31CD11FDE003383C0 /* DokuPayResources */ = {
+			isa = PBXGroup;
+			children = (
+				481DF9B41CD11FDE003383C0 /* Info.plist */,
+			);
+			path = DokuPayResources;
+			sourceTree = "<group>";
+		};
+		481EEF991D1C33F500F54CAD /* Luhn */ = {
+			isa = PBXGroup;
+			children = (
+				481EEF9A1D1C33F500F54CAD /* Luhn.h */,
+				481EEF9B1D1C33F500F54CAD /* Luhn.m */,
+			);
+			name = Luhn;
+			path = DokuPay/Library/Luhn;
+			sourceTree = "<group>";
+		};
+		4851FB921D15089500943F4C /* DKWeb3D */ = {
+			isa = PBXGroup;
+			children = (
+				4851FB931D15089500943F4C /* DKWeb3DViewController.h */,
+				4851FB941D15089500943F4C /* DKWeb3DViewController.m */,
+			);
+			path = DKWeb3D;
+			sourceTree = "<group>";
+		};
+		4851FBA51D175CD800943F4C /* DKUserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4851FBA61D175D0900943F4C /* DKUserDetail.h */,
+				4851FBA71D175D0900943F4C /* DKUserDetail.m */,
+			);
+			name = DKUserDetail;
+			sourceTree = "<group>";
+		};
+		4851FBAA1D17665700943F4C /* IQDropDownTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4851FBAB1D17665700943F4C /* IQDropDownTextField.h */,
+				4851FBAC1D17665700943F4C /* IQDropDownTextField.m */,
+			);
+			name = IQDropDownTextField;
+			path = DokuPay/Library/IQDropDownTextField;
+			sourceTree = "<group>";
+		};
+		4851FBCD1D19FE3F00943F4C /* DKTimeOut */ = {
+			isa = PBXGroup;
+			children = (
+				4851FBCE1D19FE3F00943F4C /* DKTimeOutViewController.h */,
+				4851FBCF1D19FE3F00943F4C /* DKTimeOutViewController.m */,
+			);
+			path = DKTimeOut;
+			sourceTree = "<group>";
+		};
+		4854EDAD1D0080BB006CC738 /* DKVA */ = {
+			isa = PBXGroup;
+			children = (
+				4854EDAE1D008246006CC738 /* DKVAViewController.h */,
+				4854EDAF1D008246006CC738 /* DKVAViewController.m */,
+				4854EDB31D00848A006CC738 /* DKVAResultViewController.h */,
+				4854EDB41D00848A006CC738 /* DKVAResultViewController.m */,
+			);
+			name = DKVA;
+			sourceTree = "<group>";
+		};
+		48A7BD121CE0971800B787CD /* DKWallet */ = {
+			isa = PBXGroup;
+			children = (
+				483952951D05CC2C005F80C5 /* DKWalletLoginViewController.h */,
+				483952961D05CC2C005F80C5 /* DKWalletLoginViewController.m */,
+				483952911D05CBD4005F80C5 /* DKWalletChannelViewController.h */,
+				483952921D05CBD4005F80C5 /* DKWalletChannelViewController.m */,
+				4839528D1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.h */,
+				4839528E1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.m */,
+				483952991D05CF3E005F80C5 /* DKWalletCreditCardViewController.h */,
+				4839529A1D05CF3E005F80C5 /* DKWalletCreditCardViewController.m */,
+			);
+			name = DKWallet;
+			sourceTree = "<group>";
+		};
+		48BA33081CD7B752002D39B7 /* DKPaymentItem */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33091CD7B752002D39B7 /* DKPaymentItem.h */,
+				48BA330A1CD7B752002D39B7 /* DKPaymentItem.m */,
+			);
+			path = DKPaymentItem;
+			sourceTree = "<group>";
+		};
+		48BA33D71CD959A1002D39B7 /* DKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33D81CD959C9002D39B7 /* DKUtils.h */,
+				48BA33D91CD959C9002D39B7 /* DKUtils.m */,
+			);
+			name = DKUtils;
+			sourceTree = "<group>";
+		};
+		48BA33DC1CD96A47002D39B7 /* DKUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33DD1CD96A47002D39B7 /* DKUIHelper.h */,
+				48BA33DE1CD96A47002D39B7 /* DKUIHelper.m */,
+			);
+			path = DKUIHelper;
+			sourceTree = "<group>";
+		};
+		48C4D02A1CD20BF8002D24D2 /* DKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				48C4D02B1CD20C23002D24D2 /* DKNavigationController.h */,
+				48C4D02C1CD20C23002D24D2 /* DKNavigationController.m */,
+			);
+			name = DKNavigationController;
+			sourceTree = "<group>";
+		};
+		48D15F181D10D4B100FB30DC /* DKLayout */ = {
+			isa = PBXGroup;
+			children = (
+				48D15F191D10D4D800FB30DC /* DKLayout.h */,
+				48D15F1A1D10D4D800FB30DC /* DKLayout.m */,
+			);
+			name = DKLayout;
+			sourceTree = "<group>";
+		};
+		48DA0E681CD2678300661F8B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				481EEF991D1C33F500F54CAD /* Luhn */,
+				4851FBAA1D17665700943F4C /* IQDropDownTextField */,
+				4818F6991CF757C20084E9EB /* RSAEncryptor */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		48F6F0D21CEC584D00891D68 /* DKMandiriClickpay */ = {
+			isa = PBXGroup;
+			children = (
+				48F6F0D31CEC587F00891D68 /* DKMandiriClickpayViewController.h */,
+				48F6F0D41CEC587F00891D68 /* DKMandiriClickpayViewController.m */,
+			);
+			name = DKMandiriClickpay;
+			sourceTree = "<group>";
+		};
+		48F923081CD01F47005F12DD = {
+			isa = PBXGroup;
+			children = (
+				4818F69E1CF84CC10084E9EB /* Security.framework */,
+				48F923811CD0A8D2005F12DD /* UIKit.framework */,
+				48F923131CD01F47005F12DD /* DokuPay */,
+				481DF9B31CD11FDE003383C0 /* DokuPayResources */,
+				48DA0E681CD2678300661F8B /* Library */,
+				48F923121CD01F47005F12DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F923121CD01F47005F12DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F923111CD01F47005F12DD /* libDokuPay.a */,
+				481DF9B21CD11FDE003383C0 /* DokuPay.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F923131CD01F47005F12DD /* DokuPay */ = {
+			isa = PBXGroup;
+			children = (
+				48FDF5911D429335006B9DE9 /* DKNetworking */,
+				4851FBCD1D19FE3F00943F4C /* DKTimeOut */,
+				4851FBA51D175CD800943F4C /* DKUserDetail */,
+				4851FB921D15089500943F4C /* DKWeb3D */,
+				48D15F181D10D4B100FB30DC /* DKLayout */,
+				4818F6AD1CF8A0CD0084E9EB /* DKPayment */,
+				4818F6A81CF89F3C0084E9EB /* DKSecure */,
+				4854EDAD1D0080BB006CC738 /* DKVA */,
+				4818F6BD1CF8BEE80084E9EB /* DKVAAlfa */,
+				48F6F0D21CEC584D00891D68 /* DKMandiriClickpay */,
+				48A7BD121CE0971800B787CD /* DKWallet */,
+				48F923761CD0529D005F12DD /* DKCC */,
+				48BA33DC1CD96A47002D39B7 /* DKUIHelper */,
+				48BA33D71CD959A1002D39B7 /* DKUtils */,
+				48BA33081CD7B752002D39B7 /* DKPaymentItem */,
+				48C4D02A1CD20BF8002D24D2 /* DKNavigationController */,
+				48F9237B1CD0561F005F12DD /* Images */,
+				48F923831CD0B978005F12DD /* Constant.h */,
+				48F9237A1CD05381005F12DD /* DokuPay.storyboard */,
+				48F923141CD01F47005F12DD /* DokuPay.h */,
+				48F923161CD01F47005F12DD /* DokuPay.m */,
+			);
+			path = DokuPay;
+			sourceTree = "<group>";
+		};
+		48F923761CD0529D005F12DD /* DKCC */ = {
+			isa = PBXGroup;
+			children = (
+				48F923771CD052E0005F12DD /* DKCCFormViewController.h */,
+				48F923781CD052E0005F12DD /* DKCCFormViewController.m */,
+			);
+			name = DKCC;
+			sourceTree = "<group>";
+		};
+		48F9237B1CD0561F005F12DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				481EEF9F1D1D19BD00F54CAD /* ico_arrow_down.png */,
+				4851FBC61D19024300943F4C /* back.png */,
+				4851FBB11D17C41D00943F4C /* ico_pc_va.png */,
+				4851FBA31D1759C400943F4C /* ico_back.png */,
+				4839529E1D0631E7005F80C5 /* ico_success.png */,
+				4839529D1D05D052005F80C5 /* paychan_mastercard.png */,
+				4839528C1D05C3BC005F80C5 /* ico_avatar.png */,
+				4854EE131D0532B8006CC738 /* ico_token.png */,
+				4854EE121D052F44006CC738 /* ico_pc_mandiriclickpay.png */,
+				4854EDBB1D008E22006CC738 /* ico_info_question.png */,
+				4818F6CB1CF8D1500084E9EB /* ico_arrow_left.png */,
+				4818F6CA1CF8D02F0084E9EB /* paychan_alfagroup.png */,
+				4818F6C91CF8CE360084E9EB /* ico_pc_va_marchant.png */,
+				48F6F0E71CEC5E6F00891D68 /* paychan_atm.png */,
+				48A7BD201CE0AE8C00B787CD /* ico_pc_cc.png */,
+				48A7BD211CE0AE8C00B787CD /* ico_pc_wallet.png */,
+				48A7BD1D1CE0AB0F00B787CD /* ico_pc_doku.png */,
+				48A7BD1E1CE0AB0F00B787CD /* paychan_dw.png */,
+				48A7BD1F1CE0AB0F00B787CD /* payment_secure.png */,
+				48F9237C1CD05657005F12DD /* visa-mastercard.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		48FDF5911D429335006B9DE9 /* DKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				48FDF58D1D42932E006B9DE9 /* DKNetworking.h */,
+				48FDF58E1D42932E006B9DE9 /* DKNetworking.m */,
+			);
+			name = DKNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4845BD311CD10F3500BEDCBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4845BD341CD10F6A00BEDCBA /* DokuPay.h in Headers */,
+				4854EDB01D008246006CC738 /* DKVAViewController.h in Headers */,
+				48BA330B1CD7B752002D39B7 /* DKPaymentItem.h in Headers */,
+				48D15F1B1D10D4D800FB30DC /* DKLayout.h in Headers */,
+				4810165B1CFC259500279A45 /* DKNavigationController.h in Headers */,
+				4851FBA81D175D0900943F4C /* DKUserDetail.h in Headers */,
+				481EEF9C1D1C33F500F54CAD /* Luhn.h in Headers */,
+				4839528F1D05CB8A005F80C5 /* DKWalletCashBalanceViewController.h in Headers */,
+				48BA33DA1CD959C9002D39B7 /* DKUtils.h in Headers */,
+				48F6F0D51CEC587F00891D68 /* DKMandiriClickpayViewController.h in Headers */,
+				483952931D05CBD4005F80C5 /* DKWalletChannelViewController.h in Headers */,
+				4818F6B01CF8A1030084E9EB /* DKPaymentCC.h in Headers */,
+				4854EDB91D00850D006CC738 /* DKVAAlfaResultViewController.h in Headers */,
+				4818F69C1CF757C20084E9EB /* RSAEncryptor.h in Headers */,
+				4851FBAD1D17665700943F4C /* IQDropDownTextField.h in Headers */,
+				4851FBD01D19FE3F00943F4C /* DKTimeOutViewController.h in Headers */,
+				4818F6AB1CF89F500084E9EB /* DKSecure.h in Headers */,
+				4839529B1D05CF3E005F80C5 /* DKWalletCreditCardViewController.h in Headers */,
+				4854EDB51D00848A006CC738 /* DKVAResultViewController.h in Headers */,
+				48FDF58F1D42932E006B9DE9 /* DKNetworking.h in Headers */,
+				4851FB951D15089500943F4C /* DKWeb3DViewController.h in Headers */,
+				483952971D05CC2C005F80C5 /* DKWalletLoginViewController.h in Headers */,
+				48BA33DF1CD96A47002D39B7 /* DKUIHelper.h in Headers */,
+				4818F6C01CF8BEE80084E9EB /* DKVAAlfaViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		481DF9B11CD11FDE003383C0 /* DokuPayResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481DF9B51CD11FDE003383C0 /* Build configuration list for PBXNativeTarget "DokuPayResources" */;
+			buildPhases = (
+				481DF9AE1CD11FDE003383C0 /* Sources */,
+				481DF9AF1CD11FDE003383C0 /* Frameworks */,
+				481DF9B01CD11FDE003383C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DokuPayResources;
+			productName = DokuPayResources;
+			productReference = 481DF9B21CD11FDE003383C0 /* DokuPay.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		48F923101CD01F47005F12DD /* DokuPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F9231A1CD01F47005F12DD /* Build configuration list for PBXNativeTarget "DokuPay" */;
+			buildPhases = (
+				48F9230D1CD01F47005F12DD /* Sources */,
+				48F9230E1CD01F47005F12DD /* Frameworks */,
+				48F9230F1CD01F47005F12DD /* CopyFiles */,
+				48F9231D1CD01F6C005F12DD /* Build Framework */,
+				4845BD311CD10F3500BEDCBA /* Headers */,
+				C31C66AE215D03EA00DA25C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DokuPay;
+			productName = DokuPay;
+			productReference = 48F923111CD01F47005F12DD /* libDokuPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F923091CD01F47005F12DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Doku;
+				TargetAttributes = {
+					481DF9B11CD11FDE003383C0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4845BD291CD10BE500BEDCBA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					48F923101CD01F47005F12DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 48F9230C1CD01F47005F12DD /* Build configuration list for PBXProject "DokuPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 48F923081CD01F47005F12DD;
+			productRefGroup = 48F923121CD01F47005F12DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F923101CD01F47005F12DD /* DokuPay */,
+				4845BD291CD10BE500BEDCBA /* Framework */,
+				481DF9B11CD11FDE003383C0 /* DokuPayResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		481DF9B01CD11FDE003383C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4851FBB71D17C47B00943F4C /* ico_avatar.png in Resources */,
+				4851FBC11D17C47B00943F4C /* ico_pc_doku.png in Resources */,
+				4851FBBC1D17C47B00943F4C /* paychan_alfagroup.png in Resources */,
+				4851FBB61D17C47B00943F4C /* paychan_mastercard.png in Resources */,
+				4851FBBE1D17C47B00943F4C /* paychan_atm.png in Resources */,
+				481DF9C41CD12D23003383C0 /* DokuPay.storyboard in Resources */,
+				4851FBC21D17C47B00943F4C /* paychan_dw.png in Resources */,
+				481EEFA01D1D1BF900F54CAD /* ico_arrow_down.png in Resources */,
+				4851FBB51D17C47B00943F4C /* ico_success.png in Resources */,
+				4851FBBF1D17C47B00943F4C /* ico_pc_cc.png in Resources */,
+				4851FBC31D17C47B00943F4C /* payment_secure.png in Resources */,
+				4851FBB81D17C47B00943F4C /* ico_token.png in Resources */,
+				4851FBC41D17C47B00943F4C /* visa-mastercard.png in Resources */,
+				4851FBBA1D17C47B00943F4C /* ico_info_question.png in Resources */,
+				4851FBBB1D17C47B00943F4C /* ico_arrow_left.png in Resources */,
+				4851FBB91D17C47B00943F4C /* ico_pc_mandiriclickpay.png in Resources */,
+				4851FBC01D17C47B00943F4C /* ico_pc_wallet.png in Resources */,
+				4851FBC71D19046100943F4C /* back.png in Resources */,
+				4851FBBD1D17C47B00943F4C /* ico_pc_va_marchant.png in Resources */,
+				4851FBB41D17C47B00943F4C /* ico_back.png in Resources */,
+				4851FBB31D17C47B00943F4C /* ico_pc_va.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		481DF9BA1CD120CD003383C0 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nFRAMEWORK_NAME=${PROJECT_NAME}\nINPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nFRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nSDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nSDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Determine the other platform\nif [ \"$SDK_PLATFORM\" == \"iphoneos\" ]; then\nOTHER_PLATFORM=iphonesimulator\nelse\nOTHER_PLATFORM=iphoneos\nfi\n\n# Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SDK_PLATFORM$ ]]; then\nOTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${OTHER_PLATFORM}${SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${INPUT_STATIC_LIB}\" \\\n\"${OTHER_BUILT_PRODUCTS_DIR}/${INPUT_STATIC_LIB}\" \\\n\"${FRAMEWORK_LOCATION}/Versions/A/${FRAMEWORK_NAME}\"\n\n\n# Ensure that the framework is present in both platorm's build directories\ncp -a \"${FRAMEWORK_LOCATION}/Versions/A/${FRAMEWORK_NAME}\" \\\n\"${OTHER_BUILT_PRODUCTS_DIR}/${FRAMEWORK_NAME}.framework/Versions/A/${FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# Copy the resources bundle to the user's desktop\nditto \"${BUILT_PRODUCTS_DIR}/${FRAMEWORK_NAME}.bundle\" \\\n\"${HOME}/Desktop/${FRAMEWORK_NAME}.bundle\"";
+		};
+		48F9231D1CD01F6C005F12DD /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+		C31C66AE215D03EA00DA25C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n\n\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481DF9AE1CD11FDE003383C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9230D1CD01F47005F12DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481EEF9D1D1C33F500F54CAD /* Luhn.m in Sources */,
+				4851FBAE1D17665700943F4C /* IQDropDownTextField.m in Sources */,
+				4851FB961D15089500943F4C /* DKWeb3DViewController.m in Sources */,
+				48BA330C1CD7B752002D39B7 /* DKPaymentItem.m in Sources */,
+				4851FBA91D175D0900943F4C /* DKUserDetail.m in Sources */,
+				4851FBD11D19FE3F00943F4C /* DKTimeOutViewController.m in Sources */,
+				48C4D02E1CD20C23002D24D2 /* DKNavigationController.m in Sources */,
+				48BA33DB1CD959C9002D39B7 /* DKUtils.m in Sources */,
+				483952941D05CBD4005F80C5 /* DKWalletChannelViewController.m in Sources */,
+				4818F6C11CF8BEE80084E9EB /* DKVAAlfaViewController.m in Sources */,
+				4839529C1D05CF3E005F80C5 /* DKWalletCreditCardViewController.m in Sources */,
+				48FDF5901D42932E006B9DE9 /* DKNetworking.m in Sources */,
+				483952981D05CC2C005F80C5 /* DKWalletLoginViewController.m in Sources */,
+				4818F6AC1CF89F500084E9EB /* DKSecure.m in Sources */,
+				483952901D05CB8A005F80C5 /* DKWalletCashBalanceViewController.m in Sources */,
+				4818F6B11CF8A1030084E9EB /* DKPaymentCC.m in Sources */,
+				48BA33E01CD96A47002D39B7 /* DKUIHelper.m in Sources */,
+				4854EDB11D008246006CC738 /* DKVAViewController.m in Sources */,
+				4818F69D1CF757C20084E9EB /* RSAEncryptor.m in Sources */,
+				48D15F1C1D10D4D800FB30DC /* DKLayout.m in Sources */,
+				4854EDB61D00848A006CC738 /* DKVAResultViewController.m in Sources */,
+				48F923171CD01F47005F12DD /* DokuPay.m in Sources */,
+				4854EDBA1D00850D006CC738 /* DKVAAlfaResultViewController.m in Sources */,
+				48C4D0291CD2024B002D24D2 /* DKCCFormViewController.m in Sources */,
+				48F6F0D61CEC587F00891D68 /* DKMandiriClickpayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		481DF9B91CD1208F003383C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 481DF9B11CD11FDE003383C0 /* DokuPayResources */;
+			targetProxy = 481DF9B81CD1208F003383C0 /* PBXContainerItemProxy */;
+		};
+		4845BD2E1CD10BF000BEDCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F923101CD01F47005F12DD /* DokuPay */;
+			targetProxy = 4845BD2D1CD10BF000BEDCBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		481DF9B61CD11FDE003383C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DokuPayResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = DokuPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		481DF9B71CD11FDE003383C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DokuPayResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_NAME = DokuPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4845BD2B1CD10BE500BEDCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4845BD2C1CD10BE500BEDCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48F923181CD01F47005F12DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		48F923191CD01F47005F12DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F9231B1CD01F47005F12DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/libDokuPay.a $(BUILT_PRODUCTS_DIR)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		48F9231C1CD01F47005F12DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/libDokuPay.a $(BUILT_PRODUCTS_DIR)";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481DF9B51CD11FDE003383C0 /* Build configuration list for PBXNativeTarget "DokuPayResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481DF9B61CD11FDE003383C0 /* Debug */,
+				481DF9B71CD11FDE003383C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4845BD2A1CD10BE500BEDCBA /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4845BD2B1CD10BE500BEDCBA /* Debug */,
+				4845BD2C1CD10BE500BEDCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9230C1CD01F47005F12DD /* Build configuration list for PBXProject "DokuPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F923181CD01F47005F12DD /* Debug */,
+				48F923191CD01F47005F12DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9231A1CD01F47005F12DD /* Build configuration list for PBXNativeTarget "DokuPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9231B1CD01F47005F12DD /* Debug */,
+				48F9231C1CD01F47005F12DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F923091CD01F47005F12DD /* Project object */;
+}

@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4839528A1D05C0A2005F80C5 /* img_shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 483952891D05C0A2005F80C5 /* img_shoes.jpg */; };
+		483F46481D23684F00EDC396 /* libDokuPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 483F46411D23676C00EDC396 /* libDokuPay.a */; };
+		483F46491D23687B00EDC396 /* DokuPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 483F46431D23676C00EDC396 /* DokuPay.bundle */; };
+		4851FB861D1486D300943F4C /* ico_pc_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB851D1486D300943F4C /* ico_pc_cc.png */; };
+		4851FB891D148C6800943F4C /* ico_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB881D148C6800943F4C /* ico_arrow_left.png */; };
+		4851FB8B1D1494B900943F4C /* ico_pc_doku.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB8A1D1494B900943F4C /* ico_pc_doku.png */; };
+		4851FB8D1D14950000943F4C /* ico_pc_mandiriclickpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB8C1D14950000943F4C /* ico_pc_mandiriclickpay.png */; };
+		4851FB901D14952C00943F4C /* ico_pc_va_marchant.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB8E1D14952C00943F4C /* ico_pc_va_marchant.png */; };
+		4851FB911D14952C00943F4C /* ico_pc_va.png in Resources */ = {isa = PBXBuildFile; fileRef = 4851FB8F1D14952C00943F4C /* ico_pc_va.png */; };
+		4854ED651CFFDED6006CC738 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854ED631CFFDED6006CC738 /* Crashlytics.framework */; };
+		4854ED661CFFDED6006CC738 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854ED641CFFDED6006CC738 /* Fabric.framework */; };
+		486B1CB71D0D32B80016A693 /* NotifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B1CB61D0D32B80016A693 /* NotifViewController.m */; };
+		486B1CBB1D0D38090016A693 /* ico_payment_failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 486B1CB91D0D38090016A693 /* ico_payment_failed.png */; };
+		486B1CBC1D0D38090016A693 /* ico_payment_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 486B1CBA1D0D38090016A693 /* ico_payment_success.png */; };
+		48BA339E1CD8C3B8002D39B7 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33921CD8C3B8002D39B7 /* AFHTTPSessionManager.m */; };
+		48BA339F1CD8C3B8002D39B7 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33951CD8C3B8002D39B7 /* AFNetworkReachabilityManager.m */; };
+		48BA33A01CD8C3B8002D39B7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33971CD8C3B8002D39B7 /* AFSecurityPolicy.m */; };
+		48BA33A11CD8C3B8002D39B7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33991CD8C3B8002D39B7 /* AFURLRequestSerialization.m */; };
+		48BA33A21CD8C3B8002D39B7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA339B1CD8C3B8002D39B7 /* AFURLResponseSerialization.m */; };
+		48BA33A31CD8C3B8002D39B7 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA339D1CD8C3B8002D39B7 /* AFURLSessionManager.m */; };
+		48BA33D21CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33C91CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.m */; };
+		48BA33D31CD8CE8A002D39B7 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33CB1CD8CE8A002D39B7 /* SVProgressAnimatedView.m */; };
+		48BA33D41CD8CE8A002D39B7 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48BA33CD1CD8CE8A002D39B7 /* SVProgressHUD.bundle */; };
+		48BA33D51CD8CE8A002D39B7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33CF1CD8CE8A002D39B7 /* SVProgressHUD.m */; };
+		48BA33D61CD8CE8A002D39B7 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BA33D11CD8CE8A002D39B7 /* SVRadialGradientLayer.m */; };
+		48F9232C1CD02287005F12DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9232B1CD02287005F12DD /* main.m */; };
+		48F9232F1CD02287005F12DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9232E1CD02287005F12DD /* AppDelegate.m */; };
+		48F923321CD02287005F12DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F923311CD02287005F12DD /* ViewController.m */; };
+		48F923351CD02287005F12DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F923331CD02287005F12DD /* Main.storyboard */; };
+		48F923371CD02287005F12DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F923361CD02287005F12DD /* Assets.xcassets */; };
+		48F9233A1CD02287005F12DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F923381CD02287005F12DD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		483F46401D23676C00EDC396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 48F923111CD01F47005F12DD;
+			remoteInfo = DokuPay;
+		};
+		483F46421D23676C00EDC396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 481DF9B21CD11FDE003383C0;
+			remoteInfo = DokuPayResources;
+		};
+		483F46441D23683B00EDC396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F923101CD01F47005F12DD;
+			remoteInfo = DokuPay;
+		};
+		483F46461D23683B00EDC396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 481DF9B11CD11FDE003383C0;
+			remoteInfo = DokuPayResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483952891D05C0A2005F80C5 /* img_shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_shoes.jpg; sourceTree = "<group>"; };
+		483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DokuPay.xcodeproj; path = DokuPay/DokuPay.xcodeproj; sourceTree = "<group>"; };
+		4851FB851D1486D300943F4C /* ico_pc_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pc_cc.png; sourceTree = "<group>"; };
+		4851FB881D148C6800943F4C /* ico_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_arrow_left.png; sourceTree = "<group>"; };
+		4851FB8A1D1494B900943F4C /* ico_pc_doku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pc_doku.png; sourceTree = "<group>"; };
+		4851FB8C1D14950000943F4C /* ico_pc_mandiriclickpay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pc_mandiriclickpay.png; sourceTree = "<group>"; };
+		4851FB8E1D14952C00943F4C /* ico_pc_va_marchant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pc_va_marchant.png; sourceTree = "<group>"; };
+		4851FB8F1D14952C00943F4C /* ico_pc_va.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pc_va.png; sourceTree = "<group>"; };
+		4854ED631CFFDED6006CC738 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		4854ED641CFFDED6006CC738 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		486B1CB51D0D32B80016A693 /* NotifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifViewController.h; sourceTree = "<group>"; };
+		486B1CB61D0D32B80016A693 /* NotifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifViewController.m; sourceTree = "<group>"; };
+		486B1CB91D0D38090016A693 /* ico_payment_failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_payment_failed.png; sourceTree = "<group>"; };
+		486B1CBA1D0D38090016A693 /* ico_payment_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_payment_success.png; sourceTree = "<group>"; };
+		48BA33911CD8C3B8002D39B7 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		48BA33921CD8C3B8002D39B7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		48BA33931CD8C3B8002D39B7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		48BA33941CD8C3B8002D39B7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		48BA33951CD8C3B8002D39B7 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		48BA33961CD8C3B8002D39B7 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		48BA33971CD8C3B8002D39B7 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		48BA33981CD8C3B8002D39B7 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		48BA33991CD8C3B8002D39B7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		48BA339A1CD8C3B8002D39B7 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		48BA339B1CD8C3B8002D39B7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		48BA339C1CD8C3B8002D39B7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		48BA339D1CD8C3B8002D39B7 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		48BA33C81CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		48BA33C91CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		48BA33CA1CD8CE8A002D39B7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		48BA33CB1CD8CE8A002D39B7 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		48BA33CC1CD8CE8A002D39B7 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		48BA33CD1CD8CE8A002D39B7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		48BA33CE1CD8CE8A002D39B7 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		48BA33CF1CD8CE8A002D39B7 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		48BA33D01CD8CE8A002D39B7 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		48BA33D11CD8CE8A002D39B7 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		48F923271CD02287005F12DD /* ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F9232B1CD02287005F12DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48F9232D1CD02287005F12DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48F9232E1CD02287005F12DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48F923301CD02287005F12DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48F923311CD02287005F12DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48F923341CD02287005F12DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48F923361CD02287005F12DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F923391CD02287005F12DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48F9233B1CD02287005F12DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F923241CD02287005F12DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F46481D23684F00EDC396 /* libDokuPay.a in Frameworks */,
+				4854ED651CFFDED6006CC738 /* Crashlytics.framework in Frameworks */,
+				4854ED661CFFDED6006CC738 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483952881D05C0A2005F80C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4851FB881D148C6800943F4C /* ico_arrow_left.png */,
+				4851FB851D1486D300943F4C /* ico_pc_cc.png */,
+				486B1CB91D0D38090016A693 /* ico_payment_failed.png */,
+				4851FB8E1D14952C00943F4C /* ico_pc_va_marchant.png */,
+				4851FB8F1D14952C00943F4C /* ico_pc_va.png */,
+				486B1CBA1D0D38090016A693 /* ico_payment_success.png */,
+				4851FB8A1D1494B900943F4C /* ico_pc_doku.png */,
+				4851FB8C1D14950000943F4C /* ico_pc_mandiriclickpay.png */,
+				483952891D05C0A2005F80C5 /* img_shoes.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		483F463B1D23676C00EDC396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483F46411D23676C00EDC396 /* libDokuPay.a */,
+				483F46431D23676C00EDC396 /* DokuPay.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4854ED621CFFDEB0006CC738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4854ED631CFFDED6006CC738 /* Crashlytics.framework */,
+				4854ED641CFFDED6006CC738 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48BA33371CD89EF2002D39B7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33C71CD8CE8A002D39B7 /* SVProgressHUD */,
+				48BA33901CD8C3B8002D39B7 /* AFNetworking */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		48BA33901CD8C3B8002D39B7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33911CD8C3B8002D39B7 /* AFHTTPSessionManager.h */,
+				48BA33921CD8C3B8002D39B7 /* AFHTTPSessionManager.m */,
+				48BA33931CD8C3B8002D39B7 /* AFNetworking.h */,
+				48BA33941CD8C3B8002D39B7 /* AFNetworkReachabilityManager.h */,
+				48BA33951CD8C3B8002D39B7 /* AFNetworkReachabilityManager.m */,
+				48BA33961CD8C3B8002D39B7 /* AFSecurityPolicy.h */,
+				48BA33971CD8C3B8002D39B7 /* AFSecurityPolicy.m */,
+				48BA33981CD8C3B8002D39B7 /* AFURLRequestSerialization.h */,
+				48BA33991CD8C3B8002D39B7 /* AFURLRequestSerialization.m */,
+				48BA339A1CD8C3B8002D39B7 /* AFURLResponseSerialization.h */,
+				48BA339B1CD8C3B8002D39B7 /* AFURLResponseSerialization.m */,
+				48BA339C1CD8C3B8002D39B7 /* AFURLSessionManager.h */,
+				48BA339D1CD8C3B8002D39B7 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		48BA33C71CD8CE8A002D39B7 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				48BA33C81CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.h */,
+				48BA33C91CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.m */,
+				48BA33CA1CD8CE8A002D39B7 /* SVProgressAnimatedView.h */,
+				48BA33CB1CD8CE8A002D39B7 /* SVProgressAnimatedView.m */,
+				48BA33CC1CD8CE8A002D39B7 /* SVProgressHUD-Prefix.pch */,
+				48BA33CD1CD8CE8A002D39B7 /* SVProgressHUD.bundle */,
+				48BA33CE1CD8CE8A002D39B7 /* SVProgressHUD.h */,
+				48BA33CF1CD8CE8A002D39B7 /* SVProgressHUD.m */,
+				48BA33D01CD8CE8A002D39B7 /* SVRadialGradientLayer.h */,
+				48BA33D11CD8CE8A002D39B7 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		48F9231E1CD02287005F12DD = {
+			isa = PBXGroup;
+			children = (
+				483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */,
+				48F923291CD02287005F12DD /* ios-sdk */,
+				48F923281CD02287005F12DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F923281CD02287005F12DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F923271CD02287005F12DD /* ios-sdk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F923291CD02287005F12DD /* ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				483952881D05C0A2005F80C5 /* Images */,
+				4854ED621CFFDEB0006CC738 /* Frameworks */,
+				48BA33371CD89EF2002D39B7 /* Libs */,
+				48F9232D1CD02287005F12DD /* AppDelegate.h */,
+				48F9232E1CD02287005F12DD /* AppDelegate.m */,
+				48F923301CD02287005F12DD /* ViewController.h */,
+				48F923311CD02287005F12DD /* ViewController.m */,
+				486B1CB51D0D32B80016A693 /* NotifViewController.h */,
+				486B1CB61D0D32B80016A693 /* NotifViewController.m */,
+				48F923331CD02287005F12DD /* Main.storyboard */,
+				48F923361CD02287005F12DD /* Assets.xcassets */,
+				48F923381CD02287005F12DD /* LaunchScreen.storyboard */,
+				48F9233B1CD02287005F12DD /* Info.plist */,
+				48F9232A1CD02287005F12DD /* Supporting Files */,
+			);
+			path = "ios-sdk";
+			sourceTree = "<group>";
+		};
+		48F9232A1CD02287005F12DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48F9232B1CD02287005F12DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F923261CD02287005F12DD /* ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F9233E1CD02287005F12DD /* Build configuration list for PBXNativeTarget "ios-sdk" */;
+			buildPhases = (
+				48F923231CD02287005F12DD /* Sources */,
+				48F923241CD02287005F12DD /* Frameworks */,
+				48F923251CD02287005F12DD /* Resources */,
+				48C155ED1CE2AAF50002514D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483F46451D23683B00EDC396 /* PBXTargetDependency */,
+				483F46471D23683B00EDC396 /* PBXTargetDependency */,
+			);
+			name = "ios-sdk";
+			productName = "ios-sdk";
+			productReference = 48F923271CD02287005F12DD /* ios-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F9231F1CD02287005F12DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Doku;
+				TargetAttributes = {
+					48F923261CD02287005F12DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 92ND2T6UVX;
+					};
+				};
+			};
+			buildConfigurationList = 48F923221CD02287005F12DD /* Build configuration list for PBXProject "ios-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 48F9231E1CD02287005F12DD;
+			productRefGroup = 48F923281CD02287005F12DD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 483F463B1D23676C00EDC396 /* Products */;
+					ProjectRef = 483F463A1D23676C00EDC396 /* DokuPay.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				48F923261CD02287005F12DD /* ios-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		483F46411D23676C00EDC396 /* libDokuPay.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDokuPay.a;
+			remoteRef = 483F46401D23676C00EDC396 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		483F46431D23676C00EDC396 /* DokuPay.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DokuPay.bundle;
+			remoteRef = 483F46421D23676C00EDC396 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F923251CD02287005F12DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483F46491D23687B00EDC396 /* DokuPay.bundle in Resources */,
+				4839528A1D05C0A2005F80C5 /* img_shoes.jpg in Resources */,
+				4851FB861D1486D300943F4C /* ico_pc_cc.png in Resources */,
+				486B1CBC1D0D38090016A693 /* ico_payment_success.png in Resources */,
+				48BA33D41CD8CE8A002D39B7 /* SVProgressHUD.bundle in Resources */,
+				4851FB911D14952C00943F4C /* ico_pc_va.png in Resources */,
+				4851FB8D1D14950000943F4C /* ico_pc_mandiriclickpay.png in Resources */,
+				48F9233A1CD02287005F12DD /* LaunchScreen.storyboard in Resources */,
+				4851FB891D148C6800943F4C /* ico_arrow_left.png in Resources */,
+				48F923371CD02287005F12DD /* Assets.xcassets in Resources */,
+				48F923351CD02287005F12DD /* Main.storyboard in Resources */,
+				4851FB901D14952C00943F4C /* ico_pc_va_marchant.png in Resources */,
+				486B1CBB1D0D38090016A693 /* ico_payment_failed.png in Resources */,
+				4851FB8B1D1494B900943F4C /* ico_pc_doku.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48C155ED1CE2AAF50002514D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6e62ddd740051d536f98c4078c2d525eaec8d3b7 245ca71d864496eb975bb1512f6f4cdf6db5224d340c42b120a72e45eb19ad92\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F923231CD02287005F12DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BA33A31CD8C3B8002D39B7 /* AFURLSessionManager.m in Sources */,
+				48F923321CD02287005F12DD /* ViewController.m in Sources */,
+				48BA33D31CD8CE8A002D39B7 /* SVProgressAnimatedView.m in Sources */,
+				48F9232F1CD02287005F12DD /* AppDelegate.m in Sources */,
+				48BA339F1CD8C3B8002D39B7 /* AFNetworkReachabilityManager.m in Sources */,
+				48BA33D51CD8CE8A002D39B7 /* SVProgressHUD.m in Sources */,
+				48F9232C1CD02287005F12DD /* main.m in Sources */,
+				486B1CB71D0D32B80016A693 /* NotifViewController.m in Sources */,
+				48BA33D21CD8CE8A002D39B7 /* SVIndefiniteAnimatedView.m in Sources */,
+				48BA33A01CD8C3B8002D39B7 /* AFSecurityPolicy.m in Sources */,
+				48BA33D61CD8CE8A002D39B7 /* SVRadialGradientLayer.m in Sources */,
+				48BA33A11CD8C3B8002D39B7 /* AFURLRequestSerialization.m in Sources */,
+				48BA33A21CD8C3B8002D39B7 /* AFURLResponseSerialization.m in Sources */,
+				48BA339E1CD8C3B8002D39B7 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483F46451D23683B00EDC396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DokuPay;
+			targetProxy = 483F46441D23683B00EDC396 /* PBXContainerItemProxy */;
+		};
+		483F46471D23683B00EDC396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DokuPayResources;
+			targetProxy = 483F46461D23683B00EDC396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48F923331CD02287005F12DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F923341CD02287005F12DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48F923381CD02287005F12DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F923391CD02287005F12DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48F9233C1CD02287005F12DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mohammad Surya Saputra (YC9WXWYE9G)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4c0c5094-1778-4e7b-944e-df8c1da57c14";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48F9233D1CD02287005F12DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4c0c5094-1778-4e7b-944e-df8c1da57c14";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F9233F1CD02287005F12DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 92ND2T6UVX;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DokuPay",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ios-sdk",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ios-sdk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-w",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doku.implementsdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		48F923401CD02287005F12DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 92ND2T6UVX;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DokuPay",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ios-sdk",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ios-sdk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-w",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doku.implementsdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F923221CD02287005F12DD /* Build configuration list for PBXProject "ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9233C1CD02287005F12DD /* Debug */,
+				48F9233D1CD02287005F12DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9233E1CD02287005F12DD /* Build configuration list for PBXNativeTarget "ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9233F1CD02287005F12DD /* Debug */,
+				48F923401CD02287005F12DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F9231F1CD02287005F12DD /* Project object */;
+}
